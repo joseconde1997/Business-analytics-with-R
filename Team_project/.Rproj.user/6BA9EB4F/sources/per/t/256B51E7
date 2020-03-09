@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576160028492.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2783027915",
+    "id" : "256B51E7",
+    "lastKnownWriteTime" : 1576223230,
+    "last_content_update" : 1576223230654,
+    "path" : "C:/Users/conde_000/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Team_project/Principal_components_regression_presentation.R",
+    "project_path" : "Principal_components_regression_presentation.R",
+    "properties" : {
+        "cursorPosition" : "13,34",
+        "notebook_format" : "html_document",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

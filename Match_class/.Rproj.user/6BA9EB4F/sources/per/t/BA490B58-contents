@@ -1,0 +1,22 @@
+library(writexl)
+library(data.table)
+library(tidyverse)
+library(readxl)
+match <- as.data.frame(read_excel("data_mim20.xlsx"))
+match_t <- read_excel("data_mim20.xlsx",sheet="Transpose")
+match <- match %>% na.omit() %>%
+  mutate(name=substr(name,0,12))
+match_t <- match_t %>% na.omit() %>%
+  mutate(name=substr(name,0,2))
+match_numeric <- select(match,2:20)
+match_t_numeric <- select(match_t,2:48)
+view(cor(match_numeric))
+view(cor(match_t_numeric))
+match_t_sd <- as_tibble(scale(match_t_numeric))
+match_sd <- as_tibble(scale(match_numeric))
+view(cor(match_t_sd))
+rownames(match) <- match [,1]
+match <- scale(match)
+dist <- round(dist(match,diag=T,upper=T),1)
+write_xlsx(as.data.frame(as.matrix(dist)),file="distance_match.xlsx")
+dist_frame <- as.data.frame(dist)

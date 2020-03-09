@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576059725821.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C034FCF",
+    "lastKnownWriteTime" : 8098424480833168748,
+    "last_content_update" : 1576059725821,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "50A32234",
+        "caption" : "bcp",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=bcp&cache_key=50A32234",
+        "displayedObservations" : 216,
+        "environment" : "",
+        "expression" : "bcp",
+        "object" : "bcp",
+        "preview" : 0,
+        "totalObservations" : 216,
+        "variables" : 12
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

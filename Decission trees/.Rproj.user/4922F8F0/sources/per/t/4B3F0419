@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577791675289.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1660387755",
+    "id" : "4B3F0419",
+    "lastKnownWriteTime" : 1577793052,
+    "last_content_update" : 1577793052265,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Decission trees/Samsung_amoled.R",
+    "project_path" : "Samsung_amoled.R",
+    "properties" : {
+        "cursorPosition" : "19,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580209384477.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1542618841",
+    "id" : "A627E6ED",
+    "lastKnownWriteTime" : 1580210453,
+    "last_content_update" : 1580210453121,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/GAP/Roberto.R",
+    "project_path" : "Roberto.R",
+    "properties" : {
+        "cursorPosition" : "28,0",
+        "scrollLine" : "1",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

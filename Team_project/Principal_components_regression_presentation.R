@@ -1,0 +1,16 @@
+library(pls)
+library(plotly)
+library(tidyverse)
+jaya <- readxl::read_excel("jayalaxmi.xlsx")
+jaya_model <- jaya %>% select(income_per_acre,chawki_bivol,mechanization,loan_amount,loan_repaid,mulberry_diseases,
+                              temp_mgmt,training_on_sericulture,rain_harvesting,rotary_mounting)
+fit_all <- pcr(income_per_acre~.,data=jaya,scale=TRUE,validation="CV",na.action=na.omit)
+summary(fit_all)
+View(abs(fit_all$coefficients))
+validationplot(fit_all,val.type = "R2")
+predplot(fit_all)
+mod_pcr <- pcr(income_per_acre~.,data=jaya_model,scale=TRUE,validation="CV",na.action=na.omit)
+summary(mod_pcr)
+mod_pcr <- lm(income_per_acre~chawki_bivol+mechanization+loan_amount+mulberry_diseases+
+              temp_mgmt+training_on_sericulture,jaya)
+summary(mod_pcr)

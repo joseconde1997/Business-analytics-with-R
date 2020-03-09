@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573335520788.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3176774870",
+    "id" : "9B39F338",
+    "lastKnownWriteTime" : 1573340453,
+    "last_content_update" : 1573340453315,
+    "path" : "C:/Users/conde_000/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Confidence_limits/Confidence_intervals.R",
+    "project_path" : "Confidence_intervals.R",
+    "properties" : {
+        "cursorPosition" : "37,9",
+        "scrollLine" : "20",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

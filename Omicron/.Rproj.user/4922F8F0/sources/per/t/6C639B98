@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580633007538.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4056216598",
+    "id" : "6C639B98",
+    "lastKnownWriteTime" : 1580809666,
+    "last_content_update" : 1580809666721,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Omicron/Churning.R",
+    "project_path" : "Churning.R",
+    "properties" : {
+        "cursorPosition" : "114,0",
+        "scrollLine" : "88",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

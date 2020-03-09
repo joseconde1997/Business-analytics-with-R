@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577440644470.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2946174890",
+    "id" : "56ECDF2C",
+    "lastKnownWriteTime" : 1576061668,
+    "last_content_update" : 1576061668,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Barney/Barney.R",
+    "project_path" : "Barney.R",
+    "properties" : {
+        "cursorPosition" : "19,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579678448850.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4092485601",
+    "id" : "33FB1DE7",
+    "lastKnownWriteTime" : 1578166328,
+    "last_content_update" : 1578166328,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Forecasting_time_series/forecasting_flights.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "135,4",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,32 @@
+library(readxl)
+library(tidyverse)
+library(lubridate)
+library(writexl)
+library(ggplot2)
+library(stringi)
+d$Amount <- as.numeric(d$Amount)
+mean(d$Amount)
+d <- d %>% drop_na()
+mean(d$Amount)
+ID_transactions <- d %>% group_by(d$ID) %>% summarise(mean(d$Amount))
+n_occur <- data.frame(table(d$ID))
+repeating_freq <- n_occur[n_occur$Freq > 1,]
+sum(repeating_freq$Freq)
+repeating_d <- d %>% filter(d$ID=="AAANSVUTJO7500OUTWTKAQDDC" | d$ID=="CSYECEFIIX7200OUTWTAXKRJA" | 
+                            d$ID=="DMOVBFTKOA7500OUTWTWIHZQS" | d$ID=="LHBRDRZYJR6600OUTWTRPCZTZ" |
+                            d$ID=="XTCWUXARTC8400OUTWTOBVCES" | d$ID=="YWHBLCKAFN8800OUTWTVTBOME" | 
+                            d$ID=="ZRCXWIGEKW8400OUTWTWGRJTP")
+
+ggplot(repeating_d,aes(day,Amount))+ geom_text(aes(label=ID),size=2.5,check_overlap = T)
+d_clean <- d %>% filter(!stri_detect_fixed(ID,"$C"))
+week_d <- d %>% group_by(week) %>% summarise(sum(week))
+#gibberish 1
+d_small <- d_clean
+d_small <-d_clean%>% filter(Amount<1000)
+d_small <- d_small %>% filter(Amount>0)
+sum(d_small$Amount)
+#gibberish 2
+d_small <-d_clean %>% filter(Amount<50)
+d_small <- d_small %>% filter(Amount>0)
+sum(d_small$Amount)
+

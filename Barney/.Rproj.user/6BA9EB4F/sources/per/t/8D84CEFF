@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576062159677.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8D84CEFF",
+    "lastKnownWriteTime" : 23081145666240617,
+    "last_content_update" : 1576062159677,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "531587F9",
+        "caption" : "quest",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=quest&cache_key=531587F9",
+        "displayedObservations" : 216,
+        "environment" : "",
+        "expression" : "quest",
+        "object" : "quest",
+        "preview" : 0,
+        "totalObservations" : 216,
+        "variables" : 20
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

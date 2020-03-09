@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574068416526.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E91CA179",
+    "lastKnownWriteTime" : 715485462112,
+    "last_content_update" : 1574068416526,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7E2A0CFB",
+        "caption" : "mean_loyal_data",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=mean_loyal_data&cache_key=7E2A0CFB",
+        "displayedObservations" : 100000,
+        "environment" : "",
+        "expression" : "mean_loyal_data",
+        "object" : "mean_loyal_data",
+        "preview" : 0,
+        "totalObservations" : 100000,
+        "variables" : 1
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577784970880.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2971808554",
+    "id" : "361FD5CD",
+    "lastKnownWriteTime" : 1577791673,
+    "last_content_update" : 1577791673398,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Decission trees/microsoft vs apple.R",
+    "project_path" : "microsoft vs apple.R",
+    "properties" : {
+        "cursorPosition" : "11,52",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

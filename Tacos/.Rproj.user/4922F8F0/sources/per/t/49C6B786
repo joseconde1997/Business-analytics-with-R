@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582534259618.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4290390480",
+    "id" : "49C6B786",
+    "lastKnownWriteTime" : 1583434931,
+    "last_content_update" : 1583434931395,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Tacos/Class.R",
+    "project_path" : "Class.R",
+    "properties" : {
+        "cursorPosition" : "96,0",
+        "scrollLine" : "74",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

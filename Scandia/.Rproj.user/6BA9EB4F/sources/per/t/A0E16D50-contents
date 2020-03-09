@@ -1,0 +1,42 @@
+library(readxl)
+library(ggplot2)
+library(knitr)
+library(tidyverse)
+scandia <- read_excel("scandia.xlsx")
+#Plot with 2 sets of data
+ggplot(scandia, aes(SALARY,fill=GENDER)) + geom_density(alpha=0.4)
+ggplot(scandia, aes(EXPERIENCE,fill=GENDER)) + geom_density(alpha=0.4)
+scandia2 <- scandia %>% filter(GENDER=="Male")
+scandia3 <- scandia %>% filter(GENDER=="Female")
+#Plots with gender isolated
+ggplot(scandia2, aes(SALARY,fill=I("BLUE"))) + geom_density(alpha=0.4)
+ggplot(scandia2, aes(EXPERIENCE,fill=I("BLUE"))) + geom_density(alpha=0.4)
+ggplot(scandia3, aes(SALARY,fill=I("PINK"))) + geom_density(alpha=0.4)
+ggplot(scandia3, aes(EXPERIENCE,fill=I("PINK"))) + geom_density(alpha=0.4)
+#Linear regression calculations
+mod_gender <- lm(SALARY~as.factor(GENDER),data=scandia)
+summary(mod_gender)
+mod_exp <- lm(SALARY~EXPERIENCE,data=scandia)
+summary(mod_exp)
+#Isolations by age
+scandia_young <- scandia %>% filter(EXPERIENCE >=9 & EXPERIENCE<=12)
+ggplot(scandia_young, aes(SALARY,fill=GENDER)) + geom_density(alpha=0.4)
+ggplot(scandia_young, aes(EXPERIENCE,fill=GENDER)) + geom_density(alpha=0.4)
+scandia_9 <- scandia %>% filter(EXPERIENCE==9)
+ggplot(scandia_9, aes(SALARY,fill=GENDER)) + geom_density(alpha=0.4)
+ggplot(scandia_9, aes(EXPERIENCE,fill=GENDER)) + geom_density(alpha=0.4)
+scandia_9_m <- scandia_9 %>% filter(GENDER=="Male")
+scandia_9_f <- scandia_9 %>% filter(GENDER=="Female")
+error_9_m <- sd(scandia_9_m$SALARY)/sqrt(length(scandia_9_m$SALARY))
+error_9_f <- sd(scandia_9_f$SALARY)/sqrt(length(scandia_9_f$SALARY))
+#Confidence intervals at 9 show there is gender differences
+CI_m <- c(mean(scandia_9_m$SALARY)-error_9_m,mean(scandia_9_m$SALARY)+error_9_m)
+CI_f <- c(mean(scandia_9_f$SALARY)-error_9_f,mean(scandia_9_f$SALARY)+error_9_f)
+df <- c()
+for (i in min(scandia$EXPERIENCE):max(scandia$EXPERIENCE)) {
+  scandia_age <- scandia %>% filter(EXPERIENCE==i)
+  scandia_m <- scandia_age %>% filter(GENDER=='Male')
+  scandia_f <- scandia_age %>% filter(GENDER=='Female')
+  df <- c(df,mean(scandia_m$SALARY,na.rm = TRUE)-mean(scandia_f$SALARY,na.rm = TRUE))
+}
+ggplot(data=data.frame(SALARY=df),aes(SALARY,fill=I("BLUE"))) + geom_density()

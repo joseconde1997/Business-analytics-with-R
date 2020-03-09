@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577789595362.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F6543A0F",
+    "lastKnownWriteTime" : 32088628386725934,
+    "last_content_update" : 1577789595362,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "6F553D00",
+        "caption" : "smart2",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=smart2&cache_key=6F553D00",
+        "displayedObservations" : 1774,
+        "environment" : "",
+        "expression" : "smart2",
+        "object" : "smart2",
+        "preview" : 0,
+        "totalObservations" : 1774,
+        "variables" : 20
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582298121233.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2329248908",
+    "id" : "D29A4D4A",
+    "lastKnownWriteTime" : 1582655233,
+    "last_content_update" : 1582655233933,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/BA2_project/Outliers_analysis.R",
+    "project_path" : "Outliers_analysis.R",
+    "properties" : {
+        "cursorPosition" : "75,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

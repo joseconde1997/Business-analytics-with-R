@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581782873326.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2904810124",
+    "id" : "266FBF58",
+    "lastKnownWriteTime" : 1582039433,
+    "last_content_update" : 1582039433,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Brest_cancer/breast_cancer.R",
+    "project_path" : "breast_cancer.R",
+    "properties" : {
+        "cursorPosition" : "14,21",
+        "scrollLine" : "23",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

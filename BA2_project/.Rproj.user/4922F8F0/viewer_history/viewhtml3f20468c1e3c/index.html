@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+<script src="lib/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="lib/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="lib/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="lib/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="lib/kePrint-0.0.1/kePrint.js"></script>
+
+</head>
+<body>
+<table class="table table-striped table-hover table" style="margin-left: auto; margin-right: auto; width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Actual </th>
+   <th style="text-align:right;"> Predicted </th>
+   <th style="text-align:right;"> Upper </th>
+   <th style="text-align:right;"> Lower </th>
+   <th style="text-align:left;"> Inside </th>
+   <th style="text-align:right;"> index </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 335.25 </td>
+   <td style="text-align:right;"> 397.0291 </td>
+   <td style="text-align:right;"> 432.1205 </td>
+   <td style="text-align:right;"> 361.9377 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 374.27 </td>
+   <td style="text-align:right;"> 418.9631 </td>
+   <td style="text-align:right;"> 454.0545 </td>
+   <td style="text-align:right;"> 383.8717 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 489.50 </td>
+   <td style="text-align:right;"> 428.5039 </td>
+   <td style="text-align:right;"> 463.5953 </td>
+   <td style="text-align:right;"> 393.4125 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 11 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 375.75 </td>
+   <td style="text-align:right;"> 432.8049 </td>
+   <td style="text-align:right;"> 467.8963 </td>
+   <td style="text-align:right;"> 397.7135 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 23 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 341.44 </td>
+   <td style="text-align:right;"> 379.8993 </td>
+   <td style="text-align:right;"> 414.9907 </td>
+   <td style="text-align:right;"> 344.8079 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 27 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 457.50 </td>
+   <td style="text-align:right;"> 421.6903 </td>
+   <td style="text-align:right;"> 456.7817 </td>
+   <td style="text-align:right;"> 386.5990 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 31 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 381.00 </td>
+   <td style="text-align:right;"> 417.7865 </td>
+   <td style="text-align:right;"> 452.8779 </td>
+   <td style="text-align:right;"> 382.6951 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 43 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 417.70 </td>
+   <td style="text-align:right;"> 379.6021 </td>
+   <td style="text-align:right;"> 414.6935 </td>
+   <td style="text-align:right;"> 344.5107 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 53 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 444.91 </td>
+   <td style="text-align:right;"> 409.3679 </td>
+   <td style="text-align:right;"> 444.4593 </td>
+   <td style="text-align:right;"> 374.2765 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 57 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 479.80 </td>
+   <td style="text-align:right;"> 428.3016 </td>
+   <td style="text-align:right;"> 463.3930 </td>
+   <td style="text-align:right;"> 393.2103 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 59 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 340.40 </td>
+   <td style="text-align:right;"> 386.9006 </td>
+   <td style="text-align:right;"> 424.3279 </td>
+   <td style="text-align:right;"> 349.4733 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 75 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 379.80 </td>
+   <td style="text-align:right;"> 435.1035 </td>
+   <td style="text-align:right;"> 478.8024 </td>
+   <td style="text-align:right;"> 391.4045 </td>
+   <td style="text-align:left;"> Out </td>
+   <td style="text-align:right;"> 83 </td>
+  </tr>
+</tbody>
+</table>
+</body>
+</html>

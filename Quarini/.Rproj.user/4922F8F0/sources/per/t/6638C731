@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583493279047.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3929160785",
+    "id" : "6638C731",
+    "lastKnownWriteTime" : 1583493340,
+    "last_content_update" : 1583493340365,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Quarini/Roberto.R",
+    "project_path" : "Roberto.R",
+    "properties" : {
+        "cursorPosition" : "53,0",
+        "scrollLine" : "30",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

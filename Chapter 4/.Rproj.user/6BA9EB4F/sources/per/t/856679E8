@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573024697431.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3996303571",
+    "id" : "856679E8",
+    "lastKnownWriteTime" : 1573027149,
+    "last_content_update" : 1573027149507,
+    "path" : "C:/Users/conde_000/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Chapter 4/Cluster_analysis.R",
+    "project_path" : "Cluster_analysis.R",
+    "properties" : {
+        "cursorPosition" : "14,68",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

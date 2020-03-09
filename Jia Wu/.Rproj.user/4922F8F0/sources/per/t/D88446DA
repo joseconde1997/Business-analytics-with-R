@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579538777524.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "976731896",
+    "id" : "D88446DA",
+    "lastKnownWriteTime" : 1579687634,
+    "last_content_update" : 1579687634719,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Jia Wu/Jia_wu.R",
+    "project_path" : "Jia_wu.R",
+    "properties" : {
+        "cursorPosition" : "30,27",
+        "scrollLine" : "15",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

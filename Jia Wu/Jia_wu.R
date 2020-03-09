@@ -1,0 +1,63 @@
+library(readxl)
+library(tidyverse)
+library(ggplot2)
+library(forecast)
+library(lubridate)
+library(Metrics)
+d <- read_excel("Jia_wu.xlsx",sheet = "Data")
+d.ts <- ts(d$Sales,frequency = 12)
+d$month <- month(d$Date)
+head(d.ts,100)
+plot(d$Sales,type="l")
+plot(d.ts,xlab="Month",ylab="Sales",bty="l")
+ntrain <-180*0.8
+ntest <- length(d.ts)-ntrain
+train.ts <-window(d.ts,start=c(1,1),end=c(1,ntrain))
+test.ts <-window(d.ts,start=c(1,ntrain+1),end=c(1,ntrain+ntest))
+naive.pred <- naive(train.ts,h=ntest)
+snaive.pred <- snaive(train.ts,h=ntest)
+x <- as.data.frame(snaive.pred)
+fit <- rmse(test.ts,naive.pred$mean)
+fit
+cor(test.ts,snaive.pred$mean)^2
+plot(test.ts,bty="l")
+lines(snaive.pred$mean,lwd=1,col="red",lty=1)
+lines(naive.pred$mean,lwd=1,col="blue",lty=1)
+#Trend+season
+mod_l <- lm(Sales~Date,d)
+summary(mod_l)
+pred_l <- predict(mod_l,d)
+d$pred <-pred_l
+d$error <- d$Sales - d$pred
+plot(d$error)
+plot(d$Sales,bty="l")
+lines(pred_l,lwd=1,col="blue",lty=1)
+mod_q <- lm(Sales~Date+I(Date)^2,d)
+summary(mod_q)
+pred_l <- predict(mod_q,d)
+plot(d$Sales,bty="l")
+lines(pred_l,lwd=1,col="blue",lty=1)
+#Tremd+seasonal
+mod_add <- tslm(d.ts~trend:season)
+pred_add <- predict(mod_add,d)
+summary(mod_add)
+arima <- auto.arima(d.ts,seasonal =T)
+plot(d$Sales,type = "l")
+lines(pred_add,lwd=1,col="blue",lty=1)
+lines(pred_l,lwd=1,col="red",lty=1)
+lines(arima$fitted,lwd=1,col="brown",lty=1)
+plot(d.ts,bty="l")
+lines(snaive.pred$mean,lwd=1,col="orange",lty=1)
+lines(naive.pred$mean,lwd=1,col="dark green",lty=1)
+lines(pred_add,lwd=1,col="blue",lty=1)
+lines(pred_l,lwd=1,col="red",lty=1)
+lines(arima$fitted,lwd=1,col="dark blue",lty=1)
+cor(d.ts,arima$fitted)^2
+#arima predict
+train.ts <-window(d.ts,start=c(1,1),end=c(1,ntrain))
+test.ts <-window(d.ts,start=c(1,ntrain+1),end=c(1,ntrain+ntest))
+arima <- auto.arima(train.ts,seasonal =T)
+pred_add <- forecast(arima,h=144)
+plot(test.ts,bty="l")
+lines(pred_add$x,col="brown",lty=1)
+

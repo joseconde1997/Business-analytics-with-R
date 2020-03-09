@@ -1,0 +1,25 @@
+library(readxl)
+library(tidyverse)
+
+#import data
+library(readxl)
+d <- read_excel("Scholastic.xlsx", sheet = "Exhibit 1")
+View(d)
+
+#tidy and remove dates
+d$Special.Pay <- d$Special.Pay[is.na(d$Special.Pay)] <- "NAA"
+d <- d[ , -c(9:11,17,18,21,39,40)]
+str(d)
+
+#convert columns to factors
+d$From.Grade <- as.factor(d$From.Grade)
+d$To.Grade <- as.factor(d$To.Grade)
+d$CRM.Segment <- as.factor(d$CRM.Segment)
+d$MDR.High.Grade <- as.factor(d$MDR.High.Grade)
+
+
+#Keep only top 10 factor levels for each variable
+d <- d %>% mutate_if(is.factor, ~fct_lump(.x, n=10, other_level ="Other"))
+
+#keep complete cases (get rid of real NA locations- clean data)
+d <- na.omit(d)

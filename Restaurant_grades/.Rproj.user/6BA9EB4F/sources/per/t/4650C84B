@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576005551223.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3336063459",
+    "id" : "4650C84B",
+    "lastKnownWriteTime" : 1576083902,
+    "last_content_update" : 1576083902125,
+    "path" : "C:/Users/conde_000/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Restaurant_grades/grades.R",
+    "project_path" : "grades.R",
+    "properties" : {
+        "cursorPosition" : "74,0",
+        "scrollLine" : "71",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

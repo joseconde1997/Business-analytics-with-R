@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574343591265.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B6A9947F",
+    "lastKnownWriteTime" : 2459592266154403181,
+    "last_content_update" : 1574343591265,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "8D9EFFE8",
+        "caption" : "San_francisco",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=San_francisco&cache_key=8D9EFFE8",
+        "displayedObservations" : "1396",
+        "environment" : "",
+        "expression" : "San_francisco",
+        "object" : "San_francisco",
+        "preview" : "0",
+        "totalObservations" : "1396",
+        "variables" : "14"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

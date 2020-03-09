@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579780581572.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1122757844",
+    "id" : "A696B383",
+    "lastKnownWriteTime" : 1579859163,
+    "last_content_update" : 1579859163089,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Guarini_coupons/Guarini_coupons.R",
+    "project_path" : "Guarini_coupons.R",
+    "properties" : {
+        "cursorPosition" : "33,0",
+        "scrollLine" : "7",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

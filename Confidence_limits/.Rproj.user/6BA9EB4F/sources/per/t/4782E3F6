@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573337906955.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1257572647",
+    "id" : "4782E3F6",
+    "lastKnownWriteTime" : 1573339509,
+    "last_content_update" : 1573339509599,
+    "path" : "C:/Users/conde_000/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Confidence_limits/carrots and cukes (double overlaping graph).R",
+    "project_path" : "carrots and cukes (double overlaping graph).R",
+    "properties" : {
+        "cursorPosition" : "15,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

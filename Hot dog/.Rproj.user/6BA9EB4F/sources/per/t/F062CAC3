@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574347778088.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1732337052",
+    "id" : "F062CAC3",
+    "lastKnownWriteTime" : 1574414543,
+    "last_content_update" : 1574414543971,
+    "path" : "C:/Users/conde_000/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Hot dog/hot_dog.R",
+    "project_path" : "hot_dog.R",
+    "properties" : {
+        "cursorPosition" : "43,0",
+        "scrollLine" : "25",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

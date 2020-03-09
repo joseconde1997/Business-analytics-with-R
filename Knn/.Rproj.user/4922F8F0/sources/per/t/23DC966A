@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580634463518.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1508308918",
+    "id" : "23DC966A",
+    "lastKnownWriteTime" : 1580634964,
+    "last_content_update" : 1580634964278,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Knn/Classifier.R",
+    "project_path" : "Classifier.R",
+    "properties" : {
+        "cursorPosition" : "13,2",
+        "scrollLine" : "5"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

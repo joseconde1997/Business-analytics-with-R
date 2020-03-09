@@ -1,0 +1,28 @@
+library(readxl)
+library(dplyr)
+library(forecast)
+d<- read_excel("gap.xlsx",sheet = "Quarterly sales")
+d$time <- c(1:112)
+d$index <- rep(1:4,28)
+trend <- lm(Sales~time+I(time^2)+I(time^3)+I(time^4)+I(time^5),d)
+summary(trend)
+d$trend <- predict(trend)
+plot(d$Sales,type="l")
+lines(d$trend,type="l",col="blue")
+plot(resid(trend),type="l")
+d$multi <- d$Sales/d$trend
+seasonal  <- d %>% group_by(index) %>% summarise(mean(multi))
+d <- left_join(d,seasonal)
+d$predicted <- d$trend* d$multi
+plot(d$Sales,type="l")
+lines(d$predicted,type="l",col="blue")
+cor(d$Sales,d$predicted)
+#halt-winters
+d.ts <- ts(d$Sales,frequency = 4)
+hw <- ets(d.ts,model = "MAM",alpha=0.2,beta = 0.2,gamma = 0.2)
+hw$fitted
+cor(hw$fitted,d$Sales)
+plot(d.ts,type="l")
+lines(hw$fitted,type="l",col="blue")
+forecast(hw,h=8,level=c(90))
+plot(forecast(hw,h=8,level=c(90)))

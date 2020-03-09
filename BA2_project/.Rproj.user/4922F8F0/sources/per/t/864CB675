@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582269225046.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3556829095",
+    "id" : "864CB675",
+    "lastKnownWriteTime" : 1582303196,
+    "last_content_update" : 1582303196581,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/BA2_project/Tables.R",
+    "project_path" : "Tables.R",
+    "properties" : {
+        "cursorPosition" : "1,0",
+        "notebook_format" : "html_document",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578065054626.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1678739865",
+    "id" : "721D4757",
+    "lastKnownWriteTime" : 1578067591,
+    "last_content_update" : 1578067591802,
+    "path" : "C:/Users/conde/OneDrive - IESE Business School - University of Navarra/MiM/Business analytics R/Cluster analysis/distance_calculations.R",
+    "project_path" : "distance_calculations.R",
+    "properties" : {
+        "cursorPosition" : "23,35",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
